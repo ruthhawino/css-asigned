@@ -37,17 +37,22 @@ font-size: larger;
 }
 .head{
     text-decoration:peru;
-    color: rgb(4, 4, 43);
+    color: peru;
+    align-items: center;
+
 }
 .logo{
     text-decoration: peru;
-    color: rgb(4, 4, 58);
+    color: peru;
     display: flex;
+    align-items: center;
 
 }
+
 .cate{
     text-decoration: peru;
     color: peru;
+    float: left;
 }
 .rooms{
     display: inline-block;
@@ -154,17 +159,20 @@ height: 10%;
     margin: 3%;
     width: 25%;
     height: 10%;
-    padding-right: 15%;
-    
+    padding-right: 35%;
+    align-items: center;
     margin-left: 10%;
+    padding-bottom: 10%;
+    
 
     
 }
 .discover{
-    background-color: rgb(247, 198, 148);
+    background-color:pink;
     font-size: larger;
     text-decoration: underline;
     text-decoration: grey;border-radius: 2%;
+    
     
     
 
@@ -200,5 +208,18 @@ height: 10%;
 }
 .val{
     background-color: peru;
+    padding-bottom: 5%;
+    border-radius: 2%;
+
+}.ruth{
+    border-radius: 50%;
+    background-color: plum;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    display:inline-block;
+    font-size: smaller;
+    text-decoration: underline;
     
 }
