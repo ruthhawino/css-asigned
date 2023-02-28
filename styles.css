@@ -32,13 +32,15 @@ font-size: larger;
 }
 .lists{
     display: inline-block;
+    color:rgb(128, 0, 85);
+    font-size: larger;
 }
 .head{
-    text-decoration: white;
+    text-decoration:peru;
     color: white;
 }
 .logo{
-    text-decoration: whitesmoke;
+    text-decoration: peru;
     color: white;
 }
 .rooms{
@@ -161,8 +163,9 @@ height: 10%;
     
 }
 .mine{
-    background-color: brown;
+    background-color: peru;
     margin-left: 3%;
+    font-size: small;
 }
 .final{
     background-color: rgb(11, 11, 71);
