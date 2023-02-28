@@ -1,0 +1,186 @@
+.living{
+background-position: center;
+height: 100%;
+background-size: cover;
+padding-left: 15%;
+width: 500vh;
+border-radius: 10px;
+border-radius: 2%;
+background-color: grey;
+background-image: url(/pexels-photo-2598638.webp);
+
+}
+.search{
+    color:aliceblue;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.bar{
+    float: left;
+    width: 3%;
+    height: 1%;
+}
+.search ul li{
+list-style: none;
+display: inline-flex;
+padding: 0% 3%;
+margin-top: 10%;
+font-size: larger;
+
+
+}
+.lists{
+    display: inline-block;
+}
+.head{
+    text-decoration: white;
+    color: white;
+}
+.logo{
+    text-decoration: whitesmoke;
+    color: white;
+}
+.rooms{
+    display: inline-block;
+    display: flex;
+    background-color: rgb(245, 239, 239);
+    padding-top: 5%;
+    border-radius: 2%;
+    
+    
+}
+.explore{
+    color: black;
+    text-decoration: solid;color: black;
+    font-size: large;
+}
+.line{
+    width: 10%;
+    float: left;
+}
+.chick{
+margin-bottom: 10%;
+padding: 0% 3%;
+width: 20%;
+height: 10%;
+nav-right: 50%;
+}
+.chair{
+margin-bottom: 10%;
+padding: 0% 3%;
+width: 20%;
+height: 10%;
+}
+.ladder{
+margin-bottom: 10%;
+padding: 0% 3%;
+width: 20%;
+height: 10%;
+}
+
+.wooden{
+    float: right;
+    display: flex;
+    background-color: rgb(4, 4, 26);
+    padding-top: 5%;
+    border-radius: 2%;
+    
+}
+.meza{
+    margin-bottom: 10%;
+    padding: 0% 3%;
+    width: 20%;
+    height: 10%;
+}
+.wall{
+    margin-bottom: 10%;
+    padding: 0% 3%;
+    width: 20%;
+    height: 10%;
+}
+.stool{
+    margin-bottom: 10%;
+    padding: 0% 3%;
+    width: 20%;
+    height: 10%;
+}
+.design{
+    font-size: small;
+    text-decoration: aqua;
+    font-style: oblique;
+    color: aqua;
+}
+.line2{
+   color: brown; 
+}
+.one{
+    text-decoration: aqua;
+    font-style: oblique;
+    color: aqua;
+}
+.two{
+    text-decoration: aqua;
+    font-style: oblique;
+    color: aqua;
+
+}
+.three{
+    text-decoration: antiquewhite;
+    font-style: oblique;
+    color: aqua;
+}
+.inp{
+    background-color: peru;
+}
+.input{
+    background-color: peru;
+    box-sizing: content-box;
+    width: 7%;
+    height: 5%;
+    float: right;
+}
+.flower{
+    margin: 3%;
+    width: 25%;
+    height: 10%;
+    padding-right: 15%;
+    
+    margin-left: 10%;
+
+    
+}
+.discover{
+    background-color: rgb(247, 198, 148);
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration: grey;border-radius: 2%;
+    
+
+    
+    
+}
+.mine{
+    background-color: brown;
+    margin-left: 3%;
+}
+.final{
+    background-color: rgb(11, 11, 71);
+    display: flex;
+    text-decoration: white;
+    color: white;
+    border-radius: 2%;
+}
+.xx{
+    font-size: small;
+    text-decoration: peru;
+    color: peru;
+    
+}
+.procedure{
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+.h{
+    font-style: oblique;
+}
