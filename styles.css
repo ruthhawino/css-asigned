@@ -4,11 +4,16 @@ height: 100%;
 background-size: cover;
 padding-left: 15%;
 width: 500vh;
-border-radius: 10px;
 border-radius: 2%;
 background-color: grey;
-background-image: url(/pexels-photo-2598638.webp);
 
+}
+.home{
+    
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    
 }
 .search{
     color:aliceblue;
@@ -39,13 +44,14 @@ font-size: larger;
     text-decoration:peru;
     color: peru;
     align-items: center;
+    
 
 }
 .logo{
     text-decoration: peru;
     color: peru;
-    display: flex;
-    align-items: center;
+    text-align: right;
+    display: inline-block;
 
 }
 
@@ -156,22 +162,26 @@ height: 10%;
     float: left;
 }
 .flower{
-    margin: 3%;
     width: 25%;
     height: 10%;
     padding-right: 35%;
-    align-items: center;
-    margin-left: 10%;
-    padding-bottom: 10%;
+    align-items: flex-start;
+    
     
 
     
 }
+.kisasa{
+    background-color: pink;
+    height: 1%;
+}
 .discover{
-    background-color:pink;
+    background-color:rgb(240, 210, 215);
     font-size: larger;
     text-decoration: underline;
-    text-decoration: grey;border-radius: 2%;
+    text-decoration: grey;
+    border-radius: 2%;
+    
     
     
     
@@ -213,10 +223,10 @@ height: 10%;
 
 }.ruth{
     border-radius: 50%;
-    background-color: plum;
+    background-color:pink;
     width: 200px;
     height: 200px;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     display:inline-block;
     font-size: smaller;
