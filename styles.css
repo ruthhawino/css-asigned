@@ -1,11 +1,17 @@
 .living{
-background-position: center;
-height: 100%;
-background-size: cover;
-padding-left: 15%;
-width: 500vh;
-border-radius: 2%;
+
+
+padding-left: 0%;
 background-color: grey;
+background-image: url(/images/livings.jpg);
+
+
+
+
+
+}
+.jael{
+    display: inline-block;
 
 }
 .home{
@@ -15,44 +21,35 @@ background-color: grey;
     background-position: center;
     
 }
+.logo{
+    text-align: center;
+    text-decoration: peru;
+    color: black;
+    position: relative;
+    top: -300px;
+}
 .search{
-    color:aliceblue;
-    float: left;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bt{
+    background-color: blueviolet;
+    align-items: center;
+    display: block;
+
 
 }
 .bar{
-    float: left;
-    width: 3%;
-    height: 1%;
+   width: 20%;
+   height: 10%;
+    
 }
 .search ul li{
-list-style: none;
-display: inline-flex;
-padding: 0% 3%;
-margin-top: 10%;
-font-size: larger;
-
-
-}
-.lists{
+    list-style: none;
     display: inline-block;
-    color:white;
-    font-size: larger;
-}
-.head{
-    text-decoration:peru;
-    color: peru;
-    align-items: center;
+    color: blue;
+    position: relative;
     
-
-}
-.logo{
-    text-decoration: peru;
-    color: peru;
-    text-align: right;
-    display: inline-block;
-
 }
 
 .cate{
@@ -64,7 +61,7 @@ font-size: larger;
     display: inline-block;
     display: flex;
     background-color: rgb(245, 239, 239);
-    padding-top: 5%;
+    padding-top: 3%;
     border-radius: 2%;
     
     
@@ -77,6 +74,8 @@ font-size: larger;
 .line{
     width: 10%;
     float: left;
+    border: solid;
+    color: blue;
 }
 .chick{
 margin-bottom: 10%;
@@ -131,6 +130,10 @@ height: 10%;
     color:peru;
     float: right;
 }
+.line{
+    border: solid;
+    color: blue;
+}
 .line2{
    color: brown; 
 }
@@ -138,6 +141,7 @@ height: 10%;
     text-decoration: aqua;
     font-style: oblique;
     color: aqua;
+    display: flex;
 }
 .two{
     text-decoration: aqua;
@@ -153,41 +157,48 @@ height: 10%;
 .inp{
     background-color: peru;
     float: left;
+    width: fit-content;
+    display: flex;
+    padding-left:20%;
+    justify-content: center;
+    font-size: larger;
+    margin-right: 20%;
+    box-sizing: content-box;
+    
+
 }
 .input{
     background-color: peru;
     box-sizing: content-box;
-    width: 7%;
-    height: 5%;
     float: left;
+    margin-right: 20%;
+    display: flex;
+    padding-right:20%;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+
 }
 .flower{
-    width: 25%;
-    height: 10%;
-    padding-right: 35%;
-    align-items: flex-start;
-    
-    
-
-    
+    margin: auto;
+    padding: 0% 3%;
+    width: 30%;
+    height: 20%;
+    position: relative;
+    top: -300px;
 }
+
 .kisasa{
-    background-color: pink;
+    background-color:pink;
     height: 1%;
 }
 .discover{
-    background-color:rgb(240, 210, 215);
+    background-color:pink;
     font-size: larger;
     text-decoration: underline;
-    text-decoration: grey;
-    border-radius: 2%;
-    
-    
-    
-    
+    margin: auto;
+    padding-top: 3%;
 
-    
-    
 }
 .mine{
     background-color: peru;
@@ -199,7 +210,7 @@ height: 10%;
     display: flex;
     text-decoration: white;
     color: white;
-    border-radius: 2%;
+    padding-left: 20%;
 }
 .xx{
     font-size: larger;
@@ -212,24 +223,38 @@ height: 10%;
 .procedure{
     padding-bottom: 5%;
     background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
 }
 .h{
     font-style: oblique;
+    
+
+
 }
 .val{
     background-color: peru;
     padding-bottom: 5%;
-    border-radius: 2%;
+    margin-bottom: 45%;
 
 }.ruth{
-    border-radius: 50%;
-    background-color:pink;
-    width: 200px;
-    height: 200px;
-    align-items: flex-start;
+    background-color:plum;
     text-align: center;
     display:inline-block;
-    font-size: smaller;
+    font-size: large;
     text-decoration: underline;
+    border-radius: 50%;
+    padding-top: 0% 3%;
+    width: 350px;
+    height: 370px;
     
 }
+ .my name{
+    margin-bottom: 10%;
+    padding: 0%; 
+    width: 50%;
+    height: 10%;
+    background-size: cover;
+ }  
+
